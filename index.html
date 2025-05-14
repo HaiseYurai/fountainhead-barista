@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FountainHead - Школа Бариста</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      background-color: #ffffff;
+      color: #000000;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #1877f2;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      color: #1877f2;
+    }
+
+    .contact-info p {
+      margin: 8px 0;
+    }
+
+    form {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea, button {
+      padding: 12px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    button {
+      background-color: #1877f2;
+      color: white;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #145dbf;
+    }
+
+    footer {
+      background-color: #f1f1f1;
+      color: #555;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FountainHead</h1>
+    <p>Школа бариста в Одесі — навчись готувати каву професійно</p>
+  </header>
+
+  <section>
+    <h2>Базовий курс для початківців</h2>
+    <p>Навчимо основам еспресо, капучино та альтернативи. Розглянемо воду, помел, екстракцію та смаковий профіль кави. Підходить для новачків та тих, хто хоче структурувати знання.</p>
+  </section>
+
+  <section>
+    <h2>Контакти</h2>
+    <div class="contact-info">
+      <p><strong>Адреса:</strong> м. Одеса, вул. Італійська 13</p>
+      <p><strong>Телефон:</strong> +38 063 147 45 66</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Запис на курс</h2>
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Ваше ім’я" required>
+      <input type="tel" name="phone" placeholder="Ваш номер телефону" required>
+      <textarea name="message" rows="4" placeholder="Коментар або запитання (необов’язково)"></textarea>
+      <button type="submit">Записатись</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 FountainHead. Всі права захищені.
+  </footer>
+</body>
+</html>
